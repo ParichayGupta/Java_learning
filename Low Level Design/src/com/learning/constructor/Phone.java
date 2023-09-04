@@ -22,6 +22,9 @@ public class Phone {
     }
 
 //    Copy Constructor
+    /*
+    *
+    * Create a constructor and pass the Object name as param this is a copy constructor */
     public Phone(Phone phone){
         this.screanSize = phone.screanSize;
         this.brandName = phone.brandName;
