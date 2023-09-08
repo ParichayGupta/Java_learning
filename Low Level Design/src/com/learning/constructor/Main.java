@@ -18,7 +18,7 @@ public class Main {
 
         * */
 //        Calling no arags cosntructor or default constructor
-        DefaultConstructor defaultConstructor = new DefaultConstructor();
+        DefaultConstructor defaultConstructor = new DefaultConstructor("Somya");
 //        Calling parameterised constructor
         ParameterisedConstructor parameterisedConstructor = new ParameterisedConstructor(10, "");
 

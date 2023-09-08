@@ -1,8 +1,8 @@
 package com.learning.Inheritance.example2;
 
 public class Alto extends Car{
-    int noOfwheels;
-    int noOfSeats;
+    private int noOfwheels;
+    private int noOfSeats;
 
     /*
     * this constructor is calling the constructor of Super class (Car class)

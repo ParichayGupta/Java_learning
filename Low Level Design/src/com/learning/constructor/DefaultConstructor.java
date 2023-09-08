@@ -14,7 +14,7 @@ public class DefaultConstructor {
     It is also no args constructor.
 
     * */
-    DefaultConstructor() {
-
+    DefaultConstructor(String test) {
+        this.test = test;
     }
 }
