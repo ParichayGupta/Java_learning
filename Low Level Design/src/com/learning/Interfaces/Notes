@@ -1,0 +1,29 @@
+INTERFACES
+An interface is a reference type that is similar to a class.
+
+CONSTRUCTOR
+- We cannot create constructor in an Interface as we cannot create it's object.
+
+METHODS
+1. Abstract Methods: A method without body.
+    - Interface can have abstract methods, which are mandatory to override by the class implementing the interface.
+    - for example: int exampleMethod();
+2. Default Methods:
+    - Interface can have default methods.
+    - There can be as many default methods, as we want.
+    - Not mandatory but can be overridden by child class.
+    - for example: default int exampleMethod(){ return 0;}
+3. static methods:
+    - Interface can have static methods.
+    - There can be as many static methods, as we want.
+    - Cannot override a static method in child class.
+    - for example: static String exampleMethod(){
+                        return "Ram";
+                   }
+
+VARIABLES
+
+Can Interface have Instance Variables ?
+- Yes we can have instance variables in an interface but
+    - They are public static and final by default, so we need to initialise them there only and
+    we cannot change its value.
